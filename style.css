@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font: bold;
+}
+body {
+    background-color: rgb(207, 245, 170);
+}
+.container-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.xbox {
+    width: 210px;
+    height: 80px;
+    padding: 25px;
+    margin-top: 3px;
+}
+.menu {
+    display: flex;
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    width: 85px;
+    height: 20px;
+    margin: 25px;
+    text-align: center;
+    background-color: rgb(118, 172, 74);
+    border-radius: 5px;
+    transition: all 1s linear;
+}
+li:hover {
+    background-color: rgb(42, 94, 42);
+}
+a {
+    color: #fff;
+}
+.text {
+    width: 560px;
+    height: 370px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 4px rgb(159, 197, 129);
+    opacity: 80%;
+    transition: all 1s linear;
+}
+.text:hover {
+    border: solid 3px rgb(42, 94, 42);
+    opacity: 100%;
+    box-shadow: 2px 2px 3px rgb(42, 94, 42) ;
+}
+.paragraph1 {
+    color: rgb(92, 89, 89);
+    font-size: 18px;
+    box-shadow: 1px 1px 3px rgb(42, 94, 42);
+    margin-left: 5px;
+}
+.text-base {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 80px;    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.paragraph2 {
+    margin-top: 30px;
+    margin-left: 5px;
+    line-height: 23px;
+}
+.valor {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+input {
+    background-color: rgb(14, 133, 10);
+    color: white;
+    font-size: 11px;
+    height: 35px;
+    width: 150px;
+    border-radius: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: rgb(118, 172, 74);
+}
+.image {
+    margin: 20px;
+    position: relative;
+    bottom: 25px;
+}
+.xbox-white {
+    width: 450px;
+    height: 450px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;   
+}
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 110px;
+}
+.last-txt {
+    position: relative;
+    bottom: 95px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 13px;
+}
+.first-txt,
+.second-txt,
+.third-txt {
+    width: 200px;
+    margin: 25px;
+    color: rgb(107, 105, 105);
+}
+.first-txt {
+    position: relative;
+    left: 50px;
+    bottom: 20px; 
+}
+.second-txt {
+    position: relative;
+    left: 60px;
+    bottom: 20px;  
+}
+.third-txt {
+    position: relative;
+    left: 77px;
+    bottom: 20px;
+}
+.p1,
+.p2,
+.p3 {
+    margin-top: 12px;
+}
+footer {
+    background-color: black;
+    color: rgb(42, 94, 42);
+    height: 50px;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
